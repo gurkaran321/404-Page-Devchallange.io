@@ -1,0 +1,105 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+.header{
+    text-transform: uppercase;
+    font-family: Inconsolata, sans serif;
+    font-size: 1.5rem;
+    line-height:25px ;
+    padding: 5% 7%;
+   
+}
+
+main{
+    margin:10% 2% 8% 5%;
+}
+
+.image{
+    
+    margin-bottom: 50px;
+    display: inline-block;
+    width: 47%;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.text-container{
+    margin-left: 100px;
+    font-family: 'Space Mono', monospace;
+    width: 41%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.text-title{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+}
+
+.text-passage{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 100px;
+    text-align: left;
+    padding-right: 250px;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 0.875rem;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    background-color: black;
+    padding: 23px 38px;
+    
+}
+
+.page-footer{
+    margin-bottom: 0;
+}
+
+.text-footer{
+    text-align:center;
+    color: #BDBDBD;
+    font-family: Montserrat;
+}
+
+
+
+@media only screen
+       and (max-width:800px){
+           .text-container,.image{
+               display: block;
+               width: 100%;
+
+           }
+           .text-container{
+               margin-left: 2%;
+           }
+           main{
+               margin: 0;
+               margin-bottom: 30%;
+           }
+           
+           .text-passage{
+               font-size: 18px;
+           }
+           .text-title{
+               font-size: 48px;
+               margin-right: 10%;
+           }
+       }

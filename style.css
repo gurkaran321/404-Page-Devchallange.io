@@ -13,17 +13,17 @@ html{
     font-family: Inconsolata, sans serif;
     font-size: 1.5rem;
     line-height:25px ;
-    padding: 5% 7%;
+    padding: 5.5vw 7vw;
    
 }
 
 main{
-    margin:10% 2% 8% 5%;
+    padding: 0 8vw 8vw;
 }
 
 .image{
     
-    margin-bottom: 50px;
+    margin-bottom: 8vw;
     display: inline-block;
     width: 47%;
 }
@@ -34,7 +34,7 @@ img{
 }
 
 .text-container{
-    margin-left: 100px;
+    margin-left: 2%;
     font-family: 'Space Mono', monospace;
     width: 41%;
     display: inline-block;
@@ -45,7 +45,7 @@ img{
 .text-title{
     font-size: 4rem;
     font-weight: 700;
-    margin-bottom: 80px;
+    margin-bottom: 4vw;
 }
 
 .text-passage{
@@ -53,7 +53,7 @@ img{
     font-weight: 400;
     margin-bottom: 100px;
     text-align: left;
-    padding-right: 250px;
+    padding-right: 0;
 }
 
 .btn{
@@ -69,7 +69,7 @@ img{
 }
 
 .page-footer{
-    margin-bottom: 0;
+    margin-top: 10vh;
 }
 
 .text-footer{
@@ -92,14 +92,18 @@ img{
            }
            main{
                margin: 0;
-               margin-bottom: 30%;
+               margin-bottom: 10vw;
            }
            
            .text-passage{
                font-size: 18px;
+               padding: 0;
            }
            .text-title{
                font-size: 48px;
-               margin-right: 10%;
+               
+           }
+           .text-footer{
+               font-size: 14px;
            }
        }
